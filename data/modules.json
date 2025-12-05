@@ -1,0 +1,62 @@
+[
+  {
+    "code": "FI",
+    "name": "Financial Accounting (FI)",
+    "description": "Manages an organization’s financial transactions, general ledger, AR/AP, asset accounting, and financial reporting.",
+    "process": "Record to Report (R2R)"
+  },
+  {
+    "code": "MM",
+    "name": "Materials Management (MM)",
+    "description": "Handles procurement, inventory management, goods receipts, goods issues, and vendor invoice verification.",
+    "process": "Procure to Pay (P2P)"
+  },
+  {
+    "code": "SD",
+    "name": "Sales and Distribution (SD)",
+    "description": "Manages sales orders, delivery processing, billing, and customer interactions.",
+    "process": "Order to Cash (O2C)"
+  },
+  {
+    "code": "PP",
+    "name": "Production Planning (PP)",
+    "description": "Controls production planning, MRP, capacity planning, and shop floor execution.",
+    "process": "Plan to Produce"
+  },
+  {
+    "code": "QM",
+    "name": "Quality Management (QM)",
+    "description": "Ensures product quality through inspections, audits, quality notifications, and test results.",
+    "process": "Quality Control Cycle"
+  },
+  {
+    "code": "PM",
+    "name": "Plant Maintenance (PM)",
+    "description": "Maintains equipment, handles breakdown maintenance, preventive maintenance, and work orders.",
+    "process": "Maintain to Operate"
+  },
+  {
+    "code": "WM",
+    "name": "Warehouse Management (WM)",
+    "description": "Manages warehouse bins, putaway, picking, transfers, and stock movements.",
+    "process": "Warehouse Operations"
+  },
+  {
+    "code": "HCM",
+    "name": "Human Capital Management (HCM)",
+    "description": "Manages organizational structure, personnel administration, payroll, and time management.",
+    "process": "Hire to Retire"
+  },
+  {
+    "code": "CO",
+    "name": "Controlling (CO)",
+    "description": "Monitors internal costs, profitability analysis, cost centers, and internal orders.",
+    "process": "Cost Controlling Cycle"
+  },
+  {
+    "code": "BASIS",
+    "name": "SAP Basis / Administration",
+    "description": "Handles SAP system administration, performance tuning, transports, user management, and monitoring.",
+    "process": "System Operations"
+  }
+]

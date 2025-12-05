@@ -1,0 +1,43 @@
+[
+  { "tcode": "VA01", "title": "Create Sales Order", "module": "SD", "description": "Create a customer sales order document.", "s4hana_status": "Fiori Available", "fiori_app": "F1873" },
+  { "tcode": "VA02", "title": "Change Sales Order", "module": "SD", "description": "Modify an existing sales order.", "s4hana_status": "Fiori Available", "fiori_app": "F1873" },
+  { "tcode": "VA03", "title": "Display Sales Order", "module": "SD", "description": "View sales order details.", "s4hana_status": "Available", "fiori_app": "F1873" },
+  { "tcode": "VL01N", "title": "Create Outbound Delivery", "module": "SD", "description": "Create delivery for a sales order.", "s4hana_status": "Mapped", "fiori_app": "F0869A" },
+  { "tcode": "VF01", "title": "Create Billing Document", "module": "SD", "description": "Create invoice from deliveries or orders.", "s4hana_status": "Mapped", "fiori_app": "F0799" },
+
+  { "tcode": "ME21N", "title": "Create Purchase Order", "module": "MM", "description": "Create a standard purchase order.", "s4hana_status": "Mapped", "fiori_app": "F0842" },
+  { "tcode": "ME22N", "title": "Change Purchase Order", "module": "MM", "description": "Modify an existing purchase order.", "s4hana_status": "Mapped", "fiori_app": "F0842" },
+  { "tcode": "ME23N", "title": "Display Purchase Order", "module": "MM", "description": "View purchase order details.", "s4hana_status": "Available", "fiori_app": "F0842" },
+  { "tcode": "ME51N", "title": "Create Purchase Requisition", "module": "MM", "description": "Create internal request for procurement.", "s4hana_status": "Mapped", "fiori_app": "F1643" },
+  { "tcode": "ME31K", "title": "Create Contract", "module": "MM", "description": "Create a purchasing contract.", "s4hana_status": "Mapped", "fiori_app": "F2170" },
+
+  { "tcode": "MIGO", "title": "Goods Movement", "module": "MM", "description": "Perform goods receipt, goods issue, and transfer postings.", "s4hana_status": "Same in S/4HANA", "fiori_app": "F2072" },
+  { "tcode": "MIRO", "title": "Incoming Invoice", "module": "MM", "description": "Post vendor invoices for purchase orders.", "s4hana_status": "Mapped", "fiori_app": "F0770" },
+  { "tcode": "MB51", "title": "Material Document List", "module": "MM", "description": "Display material document postings.", "s4hana_status": "Replaced by Fiori", "fiori_app": "F2072" },
+
+  { "tcode": "FB50", "title": "Post GL Document", "module": "FI", "description": "Post a general ledger journal entry.", "s4hana_status": "Mapped", "fiori_app": "F0717" },
+  { "tcode": "FB60", "title": "Vendor Invoice Entry", "module": "FI", "description": "Manually post vendor invoices.", "s4hana_status": "Mapped", "fiori_app": "F0857" },
+  { "tcode": "FB70", "title": "Customer Invoice Entry", "module": "FI", "description": "Post manual customer invoices.", "s4hana_status": "Mapped", "fiori_app": "F0858" },
+  { "tcode": "FBL1N", "title": "Vendor Line Item Display", "module": "FI", "description": "Display vendor line items.", "s4hana_status": "Mapped", "fiori_app": "F1211" },
+  { "tcode": "FBL3N", "title": "G/L Account Line Items", "module": "FI", "description": "View GL line item postings.", "s4hana_status": "Mapped", "fiori_app": "F0901" },
+
+  { "tcode": "CO01", "title": "Create Production Order", "module": "PP", "description": "Create production order for manufacturing.", "s4hana_status": "Mapped", "fiori_app": "F2914" },
+  { "tcode": "MD04", "title": "Stock/Requirements List", "module": "PP", "description": "View MRP demand and supply elements.", "s4hana_status": "Mapped", "fiori_app": "F1337" },
+  { "tcode": "MD01", "title": "MRP Run", "module": "PP", "description": "Execute material requirements planning.", "s4hana_status": "Mapped", "fiori_app": "F1337" },
+
+  { "tcode": "QP01", "title": "Create Inspection Plan", "module": "QM", "description": "Create quality inspection plan.", "s4hana_status": "Mapped", "fiori_app": "F1615" },
+  { "tcode": "QA32", "title": "Change Inspection Lot", "module": "QM", "description": "Manage inspection lots.", "s4hana_status": "Mapped", "fiori_app": "F1511" },
+
+  { "tcode": "IW31", "title": "Create Maintenance Order", "module": "PM", "description": "Create a maintenance work order.", "s4hana_status": "Mapped", "fiori_app": "F1510" },
+  { "tcode": "IW28", "title": "Display Notifications", "module": "PM", "description": "Display maintenance notifications.", "s4hana_status": "Mapped", "fiori_app": "F1512" },
+
+  { "tcode": "LX01", "title": "Create Inventory Count Document", "module": "WM", "description": "Create WM physical inventory document.", "s4hana_status": "Replaced by EWM", "fiori_app": "-" },
+  { "tcode": "LT01", "title": "Create Transfer Order", "module": "WM", "description": "Create warehouse transfer order.", "s4hana_status": "Replaced by EWM", "fiori_app": "-" },
+
+  { "tcode": "PA30", "title": "Maintain HR Master Data", "module": "HCM", "description": "Edit employee master data.", "s4hana_status": "Mapped", "fiori_app": "F0766" },
+  { "tcode": "PA20", "title": "Display HR Master Data", "module": "HCM", "description": "View employee details.", "s4hana_status": "Mapped", "fiori_app": "F0766" },
+
+  { "tcode": "ST22", "title": "Dump Analysis", "module": "BASIS", "description": "Analyze ABAP short dumps.", "s4hana_status": "Available", "fiori_app": "-" },
+  { "tcode": "SM37", "title": "Job Monitoring", "module": "BASIS", "description": "Monitor SAP background jobs.", "s4hana_status": "Available", "fiori_app": "-" },
+  { "tcode": "SU01", "title": "User Maintenance", "module": "BASIS", "description": "Create and edit SAP users.", "s4hana_status": "Available", "fiori_app": "-" }
+]
