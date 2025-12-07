@@ -58,5 +58,239 @@
     "name": "SAP Basis / Administration",
     "description": "Handles SAP system administration, performance tuning, transports, user management, and monitoring.",
     "process": "System Operations"
+  },
+  {
+    "code": "PS",
+    "name": "Project System (PS)",
+    "description": "Manages projects throughout their lifecycle, including planning, budgeting, execution, and monitoring.",
+    "process": "Project Lifecycle Management"
+  },
+  {
+    "code": "LE",
+    "name": "Logistics Execution (LE)",
+    "description": "Handles transportation, shipping, warehouse management integration, and outbound deliveries.",
+    "process": "Ship to Deliver"
+  },
+  {
+    "code": "FSCM",
+    "name": "Financial Supply Chain Management (FSCM)",
+    "description": "Optimizes financial processes along the supply chain, including cash management, credit, and collections.",
+    "process": "Financial Supply Chain Optimization"
+  },
+  {
+    "code": "CS",
+    "name": "Customer Service (CS)",
+    "description": "Manages service orders, complaints, returns, warranties, and customer service processes.",
+    "process": "Service to Resolution"
+  },
+  {
+    "code": "IM",
+    "name": "Investment Management (IM)",
+    "description": "Supports planning, monitoring, and controlling of investments in assets and projects.",
+    "process": "Investment Planning and Control"
+  },
+  {
+    "code": "EC",
+    "name": "Enterprise Controlling (EC)",
+    "description": "Provides consolidation, profitability analysis, and executive information systems for enterprise-wide reporting.",
+    "process": "Enterprise Reporting and Consolidation"
+  },
+  {
+    "code": "TR",
+    "name": "Treasury (TR)",
+    "description": "Manages financial risk, cash management, and treasury operations including money market and derivatives.",
+    "process": "Treasury Risk Management"
+  },
+  {
+    "code": "RE",
+    "name": "Real Estate (RE)",
+    "description": "Handles real estate contracts, portfolio management, and property-related financial transactions.",
+    "process": "Real Estate Management"
+  },
+  {
+    "code": "IS",
+    "name": "Industry Solutions (IS)",
+    "description": "Provides industry-specific extensions for sectors like retail, utilities, oil & gas, and more.",
+    "process": "Industry-Specific Operations"
+  },
+  {
+    "code": "CRM",
+    "name": "Customer Relationship Management (CRM)",
+    "description": "Manages customer interactions, sales automation, marketing, and service management.",
+    "process": "Lead to Service"
+  },
+  {
+    "code": "SCM",
+    "name": "Supply Chain Management (SCM)",
+    "description": "Coordinates material, financial, and information flows across the value chain, including planning and execution.",
+    "process": "Supply Chain Optimization"
+  },
+  {
+    "code": "SRM",
+    "name": "Supplier Relationship Management (SRM)",
+    "description": "Manages supplier interactions, procurement processes, and supplier performance.",
+    "process": "Supplier Collaboration Cycle"
+  },
+  {
+    "code": "PLM",
+    "name": "Product Lifecycle Management (PLM)",
+    "description": "Handles product development, from design to end-of-life, including engineering and quality.",
+    "process": "Idea to Market"
+  },
+  {
+    "code": "EHS",
+    "name": "Environment, Health, and Safety (EHS)",
+    "description": "Manages compliance with environmental regulations, health monitoring, and safety protocols.",
+    "process": "Compliance and Risk Management"
+  },
+  {
+    "code": "APO",
+    "name": "Advanced Planning & Optimization (APO)",
+    "description": "Supports advanced supply chain planning, demand forecasting, and optimization.",
+    "process": "Demand to Supply Planning"
+  },
+  {
+    "code": "TM",
+    "name": "Transportation Management (TM)",
+    "description": "Manages freight, carrier selection, route planning, and transportation execution.",
+    "process": "Transport to Delivery"
+  },
+  {
+    "code": "EWM",
+    "name": "Extended Warehouse Management (EWM)",
+    "description": "Advanced warehouse operations including slotting, labor management, and complex picking.",
+    "process": "Advanced Warehouse Operations"
+  },
+  {
+    "code": "EAM",
+    "name": "Enterprise Asset Management (EAM)",
+    "description": "Extends plant maintenance for asset lifecycle management and reliability.",
+    "process": "Asset Lifecycle Management"
+  },
+  {
+    "code": "BI",
+    "name": "Business Intelligence (BI)",
+    "description": "Provides reporting, analytics, and data visualization tools for business insights.",
+    "process": "Data to Insight"
+  },
+  {
+    "code": "GRC",
+    "name": "Governance, Risk, and Compliance (GRC)",
+    "description": "Manages risk assessment, compliance controls, and audit processes.",
+    "process": "Risk and Compliance Cycle"
+  },
+  {
+    "code": "MDG",
+    "name": "Master Data Governance (MDG)",
+    "description": "Ensures master data quality, governance, and distribution across systems.",
+    "process": "Master Data Management"
+  },
+  {
+    "code": "SOLMAN",
+    "name": "Solution Manager (SOLMAN)",
+    "description": "Supports IT service management, testing, and system monitoring.",
+    "process": "IT Operations and Support"
+  },
+  {
+    "code": "NETWEAVER",
+    "name": "NetWeaver",
+    "description": "Platform for integrating SAP applications, including portal and process integration.",
+    "process": "Application Integration"
+  },
+  {
+    "code": "EP",
+    "name": "Enterprise Portal (EP)",
+    "description": "Provides a unified access point for SAP applications and content.",
+    "process": "User Access Management"
+  },
+  {
+    "code": "PI",
+    "name": "Process Integration (PI)",
+    "description": "Facilitates integration between SAP and non-SAP systems.",
+    "process": "System Integration Cycle"
+  },
+  {
+    "code": "IS-OIL",
+    "name": "Oil & Gas (IS-OIL)",
+    "description": "Industry-specific for upstream, downstream, and trading in oil and gas.",
+    "process": "Energy Supply Chain"
+  },
+  {
+    "code": "IS-RETAIL",
+    "name": "Retail (IS-RETAIL)",
+    "description": "Manages retail operations like merchandising, store management, and promotions.",
+    "process": "Retail Operations"
+  },
+  {
+    "code": "IS-UTILITIES",
+    "name": "Utilities (IS-UTILITIES)",
+    "description": "Handles billing, metering, and customer service for utility companies.",
+    "process": "Utility Management Cycle"
+  },
+  {
+    "code": "ABAP",
+    "name": "Advanced Business Application Programming (ABAP)",
+    "description": "SAP's programming language for custom development and enhancements.",
+    "process": "Custom Development"
+  },
+  {
+    "code": "FICO",
+    "name": "Finance and Controlling (FICO)",
+    "description": "Combines FI and CO for comprehensive financial management and cost controlling.",
+    "process": "Financial Planning and Reporting"
+  },
+  {
+    "code": "BW",
+    "name": "Business Warehouse (BW)",
+    "description": "Data warehouse for integrating, storing, and analyzing business data from various sources.",
+    "process": "Data Warehousing and Analytics"
+  },
+  {
+    "code": "SECURITY",
+    "name": "SAP Security",
+    "description": "Manages user authorizations, roles, and security policies to control access.",
+    "process": "Access Control Management"
+  },
+  {
+    "code": "WORKFLOW",
+    "name": "SAP Workflow",
+    "description": "Automates business processes like approvals, notifications, and task routing.",
+    "process": "Process Automation Cycle"
+  },
+  {
+    "code": "XI",
+    "name": "Exchange Infrastructure (XI)",
+    "description": "Enables cross-system integration and process orchestration.",
+    "process": "Integration and Orchestration"
+  },
+  {
+    "code": "Fiori",
+    "name": "SAP Fiori",
+    "description": "Provides modern, role-based user interfaces and apps for SAP modules, enhancing UX across devices.",
+    "process": "User Experience Enhancement"
+  },
+  {
+    "code": "SUCCESSFACTORS",
+    "name": "SAP SuccessFactors",
+    "description": "Cloud-based HR solution for talent management, payroll, and employee experience.",
+    "process": "Talent and Workforce Management"
+  },
+  {
+    "code": "CONCUR",
+    "name": "SAP Concur",
+    "description": "Manages travel, expense, and invoice processes for spend management.",
+    "process": "Expense and Travel Management"
+  },
+  {
+    "code": "ARIBA",
+    "name": "SAP Ariba",
+    "description": "Cloud procurement platform for supplier collaboration and spend analysis.",
+    "process": "Source to Pay"
+  },
+  {
+    "code": "FIELDGLASS",
+    "name": "SAP Fieldglass",
+    "description": "Vendor management system for external workforce and services procurement.",
+    "process": "External Workforce Management"
   }
 ]

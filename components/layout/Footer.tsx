@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <footer className="mt-12 border-t py-6 text-sm text-slate-600">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <span>© {new Date().getFullYear()} SAP TCodes</span>
+        <span>© {new Date().getFullYear()} TCodes.dev</span>
+        <p className="mt-1">Made with ❤️ for SAP Professionals</p>
 
         <div className="flex gap-4">
           <Link href="/privacy" className="hover:text-indigo-600">

@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+/* --- BRANDING SYSTEM (PREMIUM UI) --- */
+
+/* Font scale */
+:root {
+  --font-display: 1.9rem;       /* Main page heading */
+  --font-title: 1.25rem;        /* Section heading */
+  --font-subtitle: 0.95rem;     /* Sub content */
+  --font-body: 0.85rem;         /* Default body text */
+  --font-small: 0.75rem;        /* Labels, badges */
+}
+
+/* Vertical spacing scale */
+:root {
+  --space-section: 2.5rem;      /* Spacing between page blocks */
+  --space-inline: 1rem;         /* smaller spacing */
+}

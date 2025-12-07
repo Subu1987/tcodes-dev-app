@@ -1,11 +1,20 @@
 import SearchHero from "@/components/home/SearchHero";
-import TCodeList from "@/components/home/TCodeList";
+import ModuleHighlights from "@/components/home/ModuleHighlights";
+import TopTcodesGrid from "@/components/home/TopTcodesGrid";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="space-y-10">
+      
+      {/* Hero Section */}
       <SearchHero />
-      <TCodeList />
+
+      {/* Featured Modules (compact clean boxes) */}
+      <ModuleHighlights />
+
+      {/* Trending TCodes */}
+      <TopTcodesGrid />
+
     </div>
   );
 }

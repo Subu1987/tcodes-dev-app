@@ -2,20 +2,25 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="bg-white border-b shadow-sm">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-indigo-600">
+    <header className="border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/40">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+        
+        
+        <Link
+          href="/"
+          className="text-xl font-semibold tracking-tight bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent"
+        >
           TCodes.dev
         </Link>
 
-        <nav className="flex items-center gap-6 text-sm text-slate-700">
-          <Link href="/module" className="hover:text-indigo-600">
+        <nav className="flex items-center gap-4 text-sm text-muted-foreground">
+          <Link href="/module" className="hover:text-primary transition">
             Modules
           </Link>
-          <Link href="/search" className="hover:text-indigo-600">
+          <Link href="/search" className="hover:text-primary transition">
             Search
           </Link>
-          <Link href="/contribute" className="hover:text-indigo-600">
+          <Link href="/contribute" className="hover:text-primary transition">
             Contribute
           </Link>
         </nav>
