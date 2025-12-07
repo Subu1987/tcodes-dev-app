@@ -59,7 +59,7 @@ export default function TCodeList() {
 
                 <div className="mt-2 text-xs text-slate-500">
                   <p>Fiori App: {tc.fiori_app}</p>
-                  <p>S/4 Status: {tc.s4hana_status}</p>
+                  <p>S/4 Replacement: {tc.s4hana_replacement || "N/A"}</p>
                 </div>
               </motion.div>
             </Card>
